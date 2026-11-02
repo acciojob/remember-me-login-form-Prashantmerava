@@ -4,10 +4,40 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	    <title>Remember Me Login Form</title>
+
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>Login Form</h1>
+
+    <form id="form">
+
+        <input
+            type="text"
+            id="username"
+            placeholder="Username"
+        >
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Password"
+        >
+
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">Remember me.</label>
+
+        <br><br>
+
+        <button type="submit" id="submit">Submit</button>
+
+    </form>
+
+    <button id="existing" style="display: none;">
+        Login as existing user
+    </button>
     <script type="text/javascript" src="./script.js">
 </script>
 
